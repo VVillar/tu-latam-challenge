@@ -19,6 +19,7 @@ El archivo `test_send_post_request.py` contiene pruebas unitarias para el script
 - En el método `test_send_post_request_failure`, configuramos el "mock" para lanzar una excepción simulando un error de conexión y probamos si la función maneja correctamente este error.
 
 **api_request_workflow.yml**
+
 El archivo de flujo de GitHub Actions define un proceso automatizado que se ejecuta en respuesta a eventos, como una confirmación de código. En este archivo:
 - Configuramos un flujo de GitHub Actions que se activa cuando se realiza una confirmación de código en la rama develop del repositorio.
 - El flujo se ejecuta en una máquina virtual con Ubuntu.
